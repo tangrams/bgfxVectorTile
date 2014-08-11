@@ -1,824 +1,0 @@
-TbgfxVectorTile
-v6
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Info.plist /Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist
-cCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o /Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o /Users/matt/Development/testBgfxApp/src/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o /Users/matt/Development/testBgfxApp/include/jsoncpp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o /Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o /Users/matt/Development/testBgfxApp/src/Layer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile normal x86_64
-cGenerateDSYMFile /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile
-cCpResource include/common/font/vs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc
-cCpResource include/common/imgui/fs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc
-cCpResource include/common/font/vs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc
-cCpResource include/common/imgui/fs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc
-cCpResource include/common/imgui/vs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc
-cCpResource include/common/font/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-cCpResource include/common/imgui/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-cCpResource data/mesh.vsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin
-cCpResource include/common/imgui/fs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc
-cCpResource include/common/font/fs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc
-cCpResource include/common/imgui/vs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc
-cCpResource include/common/font/fs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc
-cCpResource include/common/font/fs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc
-cCpResource include/common/nanovg/fs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc
-cCpResource include/common/shaderlib.sh bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh
-cCpResource data/mesh.fsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin
-cCpResource include/common/nanovg/vs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc
-cCpResource include/common/font/vs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc
-cCpResource include/common/imgui/vs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc
-cCpResource data/vectorTile.json bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json
-cTouch /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
-c00000000530295C100000000000000AA
-t1392678337
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
-c0000000053A08DFF000000000000044C
-t1403031039
-s1100
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
-c0000000053A08DFF00000000000001DE
-t1403031039
-s478
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-c0000000053A08DFF000000000000253C
-t1403031039
-s9532
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c0000000053A08DFF0000000000085C70
-t1403031039
-s547952
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
-c0000000053A08E00000000000000BB7C
-t1403031040
-s47996
-
-N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
-c0000000053A08E080000000000000ADC
-t1403031048
-s2780
-
-N/Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist
-c0000000053C6A40300000000000003E0
-t1405527043
-s992
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app
-t1407788951
-s102
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM
-t2
-s0
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Info.plist
-t1407788951
-s1324
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile
-t1407788953
-s1075880
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/PkgInfo
-t1407788951
-s8
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc
-t1407788954
-s389
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc
-t1407788954
-s553
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc
-t1407788954
-s769
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc
-t1407788954
-s217
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc
-t1407788954
-s341
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc
-t1407788954
-s340
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc
-t1407788954
-s2364
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin
-t1407788954
-s1161
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin
-t1407788954
-s467
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh
-t1407788954
-s7040
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-t1407788954
-s191
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json
-t1407788954
-s47169
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc
-t1407788954
-s239
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc
-t1407788954
-s239
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc
-t1407788954
-s239
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc
-t1407788954
-s306
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc
-t1407788954
-s309
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc
-t1407788954
-s360
-
-N/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc
-t1407788954
-s528
-
-N/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o
-t1407788952
-s360616
-
-N/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o
-t1407788952
-s116200
-
-N/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/bgfxVectorTile.LinkFileList
-c0000000053E927970000000000000267
-t1407788951
-s615
-
-N/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o
-t1407788952
-s81108
-
-N/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o
-t1407788953
-s1122752
-
-N/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o
-t1407788952
-s142864
-
-N/Users/matt/Development/testBgfxApp/data/mesh.fsh.bin
-c0000000053E541D50000000000000489
-t1407533525
-s1161
-
-N/Users/matt/Development/testBgfxApp/data/mesh.vsh.bin
-c0000000053E5419000000000000001D3
-t1407533456
-s467
-
-N/Users/matt/Development/testBgfxApp/data/vectorTile.json
-c0000000053A1EB1D000000000000B841
-t1403120413
-s47169
-
-N/Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm
-c0000000053BED2E4000000000000153B
-t1405014756
-s5435
-
-N/Users/matt/Development/testBgfxApp/include/common/font/fs_font_basic.sc
-c0000000053BED2E40000000000000185
-t1405014756
-s389
-
-N/Users/matt/Development/testBgfxApp/include/common/font/fs_font_distance_field.sc
-c0000000053BED2E40000000000000229
-t1405014756
-s553
-
-N/Users/matt/Development/testBgfxApp/include/common/font/fs_font_distance_field_subpixel.sc
-c0000000053BED2E40000000000000301
-t1405014756
-s769
-
-N/Users/matt/Development/testBgfxApp/include/common/font/varying.def.sc
-c0000000053BED2E40000000000000143
-t1405014756
-s323
-
-N/Users/matt/Development/testBgfxApp/include/common/font/vs_font_basic.sc
-c0000000053BED2E400000000000000EF
-t1405014756
-s239
-
-N/Users/matt/Development/testBgfxApp/include/common/font/vs_font_distance_field.sc
-c0000000053BED2E400000000000000EF
-t1405014756
-s239
-
-N/Users/matt/Development/testBgfxApp/include/common/font/vs_font_distance_field_subpixel.sc
-c0000000053BED2E400000000000000EF
-t1405014756
-s239
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/fs_imgui_color.sc
-c0000000053BED2E400000000000000D9
-t1405014756
-s217
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/fs_imgui_image.sc
-c0000000053C4132B0000000000000155
-t1405358891
-s341
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/fs_imgui_texture.sc
-c0000000053BED2E40000000000000154
-t1405014756
-s340
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/varying.def.sc
-c0000000053BED2E400000000000000BF
-t1405014756
-s191
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/vs_imgui_color.sc
-c0000000053BED2E40000000000000132
-t1405014756
-s306
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/vs_imgui_image.sc
-c0000000053BED2E40000000000000135
-t1405014756
-s309
-
-N/Users/matt/Development/testBgfxApp/include/common/imgui/vs_imgui_texture.sc
-c0000000053BED2E40000000000000168
-t1405014756
-s360
-
-N/Users/matt/Development/testBgfxApp/include/common/nanovg/fs_nanovg_fill.sc
-c0000000053BED2E4000000000000093C
-t1405014756
-s2364
-
-N/Users/matt/Development/testBgfxApp/include/common/nanovg/vs_nanovg_fill.sc
-c0000000053BED2E40000000000000210
-t1405014756
-s528
-
-N/Users/matt/Development/testBgfxApp/include/common/shaderlib.sh
-c0000000053BED2E40000000000001B80
-t1405014756
-s7040
-
-N/Users/matt/Development/testBgfxApp/include/jsoncpp.cpp
-c0000000053C82A990000000000019C2D
-t1405627033
-s105517
-
-N/Users/matt/Development/testBgfxApp/libs/debug/libbgfxDebug.a
-c0000000053C55C5200000000001A8E38
-t1405443154
-s1740344
-
-N/Users/matt/Development/testBgfxApp/libs/debug/libexample-commonDebug.a
-c0000000053C55C5C0000000000374CD0
-t1405443164
-s3624144
-
-N/Users/matt/Development/testBgfxApp/libs/debug/libtess2.a
-c0000000053C69CCB0000000000021188
-t1405525195
-s135560
-
-N/Users/matt/Development/testBgfxApp/libs/release/libbgfxRelease.a
-c0000000053E9253300000000001EE7E0
-t1407788339
-s2025440
-
-N/Users/matt/Development/testBgfxApp/libs/release/libexample-commonRelease.a
-c0000000053E9254900000000005E9C10
-t1407788361
-s6200336
-
-N/Users/matt/Development/testBgfxApp/libs/release/libtess2.a
-c0000000053C69CCB0000000000021188
-t1405525195
-s135560
-
-N/Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp
-c0000000053E91E1C0000000000002B89
-t1407786524
-s11145
-
-N/Users/matt/Development/testBgfxApp/src/Layer.cpp
-c0000000053DFDF760000000000000237
-t1407180662
-s567
-
-N/Users/matt/Development/testBgfxApp/src/main.cpp
-c0000000053E922D900000000000015CA
-t1407787737
-s5578
-
-CBuild AST from /Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm
-r0
-
-CBuild AST from /Users/matt/Development/testBgfxApp/include/jsoncpp.cpp
-r0
-
-CBuild AST from /Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp
-r0
-
-CBuild AST from /Users/matt/Development/testBgfxApp/src/Layer.cpp
-r0
-
-CBuild AST from /Users/matt/Development/testBgfxApp/src/main.cpp
-r0
-
-CCheck dependencies
-r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies459e44175f99b941^5f4251175f99b941^-150"Warning: Multiple build commands for output file /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc1(21%IDEActivityLogMessage2@149"Warning: Multiple build commands for output file /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc-429481751#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"F4FE3B81-91CC-429B-8DA9-32EE721E0B0E-
-
-CCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o /Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s429481751.322498
-e429481752.775381
-r1
-xCompileC
-xbin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o
-x/Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp
-d/Users/matt/Development/testBgfxApp/src/GeometryBuilder.h
-d/Users/matt/Development/testBgfxApp/src/PosNormColorVertex.h
-d/Users/matt/Development/bgfx/include/bgfx.h
-d/Users/matt/Development/bgfx/include/bgfxdefines.h
-d/Users/matt/Development/testBgfxApp/include/json/json.h
-d/Users/matt/Development/testBgfxApp/include/tesselator.h
-d/Users/matt/Development/testBgfxApp/include/common/common.h
-d/Users/matt/Development/bx/include/bx/timer.h
-d/Users/matt/Development/bx/include/bx/bx.h
-d/Users/matt/Development/bx/include/bx/platform.h
-d/Users/matt/Development/bx/include/bx/macros.h
-d/Users/matt/Development/bx/include/bx/fpumath.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/entry.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/dbg.h
-d/Users/matt/Development/bx/include/bx/readerwriter.h
-d/Users/matt/Development/bx/include/bx/uint32_t.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp188"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o src/GeometryBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler4bae52175f99b941^e57fc6185f99b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp0000000000000000^2979"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o src/GeometryBuilder.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Development/testBgfxApp    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/matt/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-generated-files.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-own-target-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-all-target-headers.hmap -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-project-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/Release/include -Iinclude -Iinclude/common -Iinclude/json -I../bgfx/include -I../bgfx/3rdparty -I../bx/include -I../bx/include/compat/osx -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources/x86_64 -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources -F/Users/matt/Development/testBgfxApp/bin/Release -MMD -MT dependencies -MF /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.d --serialize-diagnostics /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.dia -c /Users/matt/Development/testBgfxApp/src/GeometryBuilder.cpp -o /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o36"207CEC71-0B41-4138-A8A3-D094ECABC879-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o /Users/matt/Development/testBgfxApp/src/Layer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s429481752.366365
-e429481752.954557
-r1
-xCompileC
-xbin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o
-x/Users/matt/Development/testBgfxApp/src/Layer.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/matt/Development/testBgfxApp/src/Layer.cpp
-d/Users/matt/Development/testBgfxApp/src/Layer.h
-d/Users/matt/Development/testBgfxApp/src/GeometryBuilder.h
-d/Users/matt/Development/testBgfxApp/src/PosNormColorVertex.h
-d/Users/matt/Development/bgfx/include/bgfx.h
-d/Users/matt/Development/bgfx/include/bgfxdefines.h
-d/Users/matt/Development/testBgfxApp/include/json/json.h
-d/Users/matt/Development/testBgfxApp/include/tesselator.h
-d/Users/matt/Development/testBgfxApp/include/common/common.h
-d/Users/matt/Development/bx/include/bx/timer.h
-d/Users/matt/Development/bx/include/bx/bx.h
-d/Users/matt/Development/bx/include/bx/platform.h
-d/Users/matt/Development/bx/include/bx/macros.h
-d/Users/matt/Development/bx/include/bx/fpumath.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/entry.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/dbg.h
-d/Users/matt/Development/bx/include/bx/readerwriter.h
-d/Users/matt/Development/bx/include/bx/uint32_t.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/matt/Development/testBgfxApp/src/Layer.cpp168"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o src/Layer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerf8e05d185f99b941^0b5ef4185f99b941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/matt/Development/testBgfxApp/src/Layer.cpp0000000000000000^2919"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o src/Layer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Development/testBgfxApp    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/matt/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-generated-files.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-own-target-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-all-target-headers.hmap -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-project-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/Release/include -Iinclude -Iinclude/common -Iinclude/json -I../bgfx/include -I../bgfx/3rdparty -I../bx/include -I../bx/include/compat/osx -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources/x86_64 -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources -F/Users/matt/Development/testBgfxApp/bin/Release -MMD -MT dependencies -MF /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.d --serialize-diagnostics /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.dia -c /Users/matt/Development/testBgfxApp/src/Layer.cpp -o /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o36"3CADD93A-AFA8-4E09-8BCE-92871EBFF06D-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o /Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
-s429481751.320605
-e429481752.685758
-r1
-xCompileC
-xbin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o
-x/Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm
-xnormal
-xx86_64
-xobjective-c++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm
-d/Users/matt/Development/testBgfxApp/include/common/entry/entry_p.h
-d/Users/matt/Development/bx/include/bx/spscqueue.h
-d/Users/matt/Development/bx/include/bx/bx.h
-d/Users/matt/Development/bx/include/bx/platform.h
-d/Users/matt/Development/bx/include/bx/macros.h
-d/Users/matt/Development/bx/include/bx/cpu.h
-d/Users/matt/Development/bx/include/bx/mutex.h
-d/Users/matt/Development/bx/include/bx/sem.h
-d/Users/matt/Development/bx/include/bx/uint32_t.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/entry.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/dbg.h
-d/Users/matt/Development/bgfx/include/bgfxplatform.h
-d/Users/matt/Development/bx/include/bx/thread.h
-d/Users/matt/Development/bx/include/bx/os.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm202"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o include/common/entry/entry_osx.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler1b2a52175f99b941^7590af185f99b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm0000000000000000^3234"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o include/common/entry/entry_osx.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Development/testBgfxApp    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/matt/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-generated-files.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-own-target-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-all-target-headers.hmap -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-project-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/Release/include -Iinclude -Iinclude/common -Iinclude/json -I../bgfx/include -I../bgfx/3rdparty -I../bx/include -I../bx/include/compat/osx -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources/x86_64 -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources -F/Users/matt/Development/testBgfxApp/bin/Release -MMD -MT dependencies -MF /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.d --serialize-diagnostics /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.dia -c /Users/matt/Development/testBgfxApp/include/common/entry/entry_osx.mm -o /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o36"21E606CB-73C4-4D85-9D87-4B15F768E39A-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o /Users/matt/Development/testBgfxApp/include/jsoncpp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s429481751.321048
-e429481753.869594
-r1
-xCompileC
-xbin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o
-x/Users/matt/Development/testBgfxApp/include/jsoncpp.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/matt/Development/testBgfxApp/include/jsoncpp.cpp
-d/Users/matt/Development/testBgfxApp/include/json/json.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/matt/Development/testBgfxApp/include/jsoncpp.cpp176"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o include/jsoncpp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler7f4d52175f99b941^d49ede195f99b941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/matt/Development/testBgfxApp/include/jsoncpp.cpp0000000000000000^2939"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o include/jsoncpp.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Development/testBgfxApp    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/matt/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-generated-files.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-own-target-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-all-target-headers.hmap -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-project-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/Release/include -Iinclude -Iinclude/common -Iinclude/json -I../bgfx/include -I../bgfx/3rdparty -I../bx/include -I../bx/include/compat/osx -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources/x86_64 -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources -F/Users/matt/Development/testBgfxApp/bin/Release -MMD -MT dependencies -MF /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.d --serialize-diagnostics /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.dia -c /Users/matt/Development/testBgfxApp/include/jsoncpp.cpp -o /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o36"09D63258-1CD4-49FD-9A61-B772392BB1E6-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o /Users/matt/Development/testBgfxApp/src/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
-s429481751.320775
-e429481752.366096
-r1
-xCompileC
-xbin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o
-x/Users/matt/Development/testBgfxApp/src/main.cpp
-xnormal
-xx86_64
-xc++
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/matt/Development/testBgfxApp/src/main.cpp
-d/Users/matt/Development/testBgfxApp/include/common/bgfx_utils.h
-d/Users/matt/Development/bgfx/include/bgfx.h
-d/Users/matt/Development/bgfx/include/bgfxdefines.h
-d/Users/matt/Development/testBgfxApp/include/common/common.h
-d/Users/matt/Development/bx/include/bx/timer.h
-d/Users/matt/Development/bx/include/bx/bx.h
-d/Users/matt/Development/bx/include/bx/platform.h
-d/Users/matt/Development/bx/include/bx/macros.h
-d/Users/matt/Development/bx/include/bx/fpumath.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/entry.h
-d/Users/matt/Development/testBgfxApp/include/common/entry/dbg.h
-d/Users/matt/Development/testBgfxApp/src/Layer.h
-d/Users/matt/Development/testBgfxApp/src/GeometryBuilder.h
-d/Users/matt/Development/testBgfxApp/src/PosNormColorVertex.h
-d/Users/matt/Development/testBgfxApp/include/json/json.h
-d/Users/matt/Development/testBgfxApp/include/tesselator.h
-d/Users/matt/Development/bx/include/bx/readerwriter.h
-d/Users/matt/Development/bx/include/bx/uint32_t.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/matt/Development/testBgfxApp/src/main.cpp166"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o src/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler863852175f99b941^6efc5d185f99b941^---0#0#1#-19%DVTDocumentLocation2@55"file:///Users/matt/Development/testBgfxApp/src/main.cpp0000000000000000^2913"CompileC bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o src/main.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/matt/Development/testBgfxApp    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/matt/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-generated-files.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-own-target-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-all-target-headers.hmap -iquote /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/bgfxVectorTile-project-headers.hmap -I/Users/matt/Development/testBgfxApp/bin/Release/include -Iinclude -Iinclude/common -Iinclude/json -I../bgfx/include -I../bgfx/3rdparty -I../bx/include -I../bx/include/compat/osx -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources/x86_64 -I/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/DerivedSources -F/Users/matt/Development/testBgfxApp/bin/Release -MMD -MT dependencies -MF /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.dia -c /Users/matt/Development/testBgfxApp/src/main.cpp -o /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o36"137BB379-AD6B-420B-8F19-223C0D570CA8-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource data/mesh.fsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin
-s429481754.046668
-e429481754.048622
-r1
-xCpResource
-xdata/mesh.fsh.bin
-xbin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin91"CpResource data/mesh.fsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.binadfb0b1a5f99b941^a27d0c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin00348440ddffdf42^513"CpResource data/mesh.fsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.fsh.bin    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/data/mesh.fsh.bin /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"3C63ABE9-59B1-41E2-9276-BB7936DDF412-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource data/mesh.vsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin
-s429481754.043136
-e429481754.044809
-r1
-xCpResource
-xdata/mesh.vsh.bin
-xbin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin91"CpResource data/mesh.vsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin2b160b1a5f99b941^5b9a0b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin00348440ddffdf42^513"CpResource data/mesh.vsh.bin bin/Release/bgfxVectorTile.app/Contents/Resources/mesh.vsh.bin    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/data/mesh.vsh.bin /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"D4C0917E-6FCB-4B5E-82BE-B1E39CB7E966-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource data/vectorTile.json bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json
-s429481754.049036
-e429481754.049797
-r1
-xCpResource
-xdata/vectorTile.json
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json97"CpResource data/vectorTile.json bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json57960c1a5f99b941^58c80c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json00348440ddffdf42^522"CpResource data/vectorTile.json bin/Release/bgfxVectorTile.app/Contents/Resources/vectorTile.json    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/data/vectorTile.json /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"7C90CE46-B099-47EB-BC96-657A9A4F98D2-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/fs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc
-s429481754.045775
-e429481754.046536
-r1
-xCpResource
-xinclude/common/font/fs_font_basic.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc114"CpResource include/common/font/fs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc33c20b1a5f99b941^2dea0b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc00348440ddffdf42^555"CpResource include/common/font/fs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_basic.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/fs_font_basic.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"EAAAB661-9E74-4807-B66B-628B5F678768-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/fs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc
-s429481754.044268
-e429481754.045462
-r1
-xCpResource
-xinclude/common/font/fs_font_distance_field.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc132"CpResource include/common/font/fs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc02610b1a5f99b941^11a70b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc00348440ddffdf42^582"CpResource include/common/font/fs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/fs_font_distance_field.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"1D34648B-851A-420A-B55E-B9523B30585D-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/fs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc
-s429481754.045188
-e429481754.046157
-r1
-xCpResource
-xinclude/common/font/fs_font_distance_field_subpixel.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc150"CpResource include/common/font/fs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc029b0b1a5f99b941^38d80b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc00348440ddffdf42^609"CpResource include/common/font/fs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_font_distance_field_subpixel.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/fs_font_distance_field_subpixel.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"8D7F0FCC-894D-4076-A114-F1C1B704B975-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-s429481754.041867
-e429481754.042841
-r1
-xCpResource
-xinclude/common/font/varying.def.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc110"CpResource include/common/font/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc22c30a1a5f99b941^66f90a1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc00348440ddffdf42^549"CpResource include/common/font/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/varying.def.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"3FB83430-B34A-4E76-A99F-BD0C0DB35445-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/vs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc
-s429481754.040055
-e429481754.041194
-r1
-xCpResource
-xinclude/common/font/vs_font_basic.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc114"CpResource include/common/font/vs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.scf04e0a1a5f99b941^8e8f0a1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc00348440ddffdf42^555"CpResource include/common/font/vs_font_basic.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_basic.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/vs_font_basic.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"F03AFE98-A646-4B24-BE2E-E34B7F536F68-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/vs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc
-s429481754.047674
-e429481754.048496
-r1
-xCpResource
-xinclude/common/font/vs_font_distance_field.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc132"CpResource include/common/font/vs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc103e0c1a5f99b941^cc7b0c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc00348440ddffdf42^582"CpResource include/common/font/vs_font_distance_field.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/vs_font_distance_field.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"070E86FB-67AF-4446-A85B-2A5D8906EA80-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/font/vs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc
-s429481754.040852
-e429481754.041696
-r1
-xCpResource
-xinclude/common/font/vs_font_distance_field_subpixel.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc150"CpResource include/common/font/vs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc187c0a1a5f99b941^1dad0a1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc00348440ddffdf42^609"CpResource include/common/font/vs_font_distance_field_subpixel.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_font_distance_field_subpixel.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/font/vs_font_distance_field_subpixel.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"28860FF4-FEBC-4619-B54C-C98636BF6807-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/fs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc
-s429481754.043389
-e429481754.044553
-r1
-xCpResource
-xinclude/common/imgui/fs_imgui_color.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc117"CpResource include/common/imgui/fs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc3e250b1a5f99b941^88800b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc00348440ddffdf42^560"CpResource include/common/imgui/fs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_color.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/fs_imgui_color.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"42360DA5-F206-4B2E-90D9-0D4B9C46FCFB-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/fs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc
-s429481754.041138
-e429481754.042840
-r1
-xCpResource
-xinclude/common/imgui/fs_imgui_image.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc117"CpResource include/common/imgui/fs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc5e9e0a1a5f99b941^29ec0a1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc00348440ddffdf42^560"CpResource include/common/imgui/fs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_image.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/fs_imgui_image.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"FDB926BA-7307-4D2D-A029-3A0BE7573F27-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/fs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc
-s429481754.040280
-e429481754.041668
-r1
-xCpResource
-xinclude/common/imgui/fs_imgui_texture.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc121"CpResource include/common/imgui/fs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc64570a1a5f99b941^94a50a1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc00348440ddffdf42^566"CpResource include/common/imgui/fs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_imgui_texture.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/fs_imgui_texture.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"898934F6-C860-4D06-8D52-01F47D31FF9D-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-s429481754.042283
-e429481754.044575
-r1
-xCpResource
-xinclude/common/imgui/varying.def.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc111"CpResource include/common/imgui/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc12de0a1a5f99b941^656d0b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@107"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc00348440ddffdf42^551"CpResource include/common/imgui/varying.def.sc bin/Release/bgfxVectorTile.app/Contents/Resources/varying.def.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/varying.def.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"BD5A1E71-F7B2-41FA-B6C5-BA559346A7F6-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/vs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc
-s429481754.048162
-e429481754.050072
-r1
-xCpResource
-xinclude/common/imgui/vs_imgui_color.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc117"CpResource include/common/imgui/vs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc78960c1a5f99b941^d9d10c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc00348440ddffdf42^560"CpResource include/common/imgui/vs_imgui_color.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_color.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/vs_imgui_color.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"9CB44701-C2F6-4331-9B44-4B0336ACED58-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/vs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc
-s429481754.041510
-e429481754.043776
-r1
-xCpResource
-xinclude/common/imgui/vs_imgui_image.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc117"CpResource include/common/imgui/vs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc3eb10a1a5f99b941^32010b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc00348440ddffdf42^560"CpResource include/common/imgui/vs_imgui_image.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_image.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/vs_imgui_image.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"45657959-4D61-43A0-BE7C-7942E0B08659-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/imgui/vs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc
-s429481754.044689
-e429481754.046182
-r1
-xCpResource
-xinclude/common/imgui/vs_imgui_texture.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc121"CpResource include/common/imgui/vs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc50890b1a5f99b941^f9da0b1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc00348440ddffdf42^566"CpResource include/common/imgui/vs_imgui_texture.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_imgui_texture.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/imgui/vs_imgui_texture.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"F3BC687A-05F9-4DE1-8793-C93AA0CE648C-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/nanovg/fs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc
-s429481754.046107
-e429481754.047056
-r1
-xCpResource
-xinclude/common/nanovg/fs_nanovg_fill.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc118"CpResource include/common/nanovg/fs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.scc7da0b1a5f99b941^310c0c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc00348440ddffdf42^562"CpResource include/common/nanovg/fs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/fs_nanovg_fill.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/nanovg/fs_nanovg_fill.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"9EC70E5D-AB20-4AA9-BF8E-E661315BEB0D-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/nanovg/vs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc
-s429481754.047061
-e429481754.048283
-r1
-xCpResource
-xinclude/common/nanovg/vs_nanovg_fill.sc
-xbin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc118"CpResource include/common/nanovg/vs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc2e1c0c1a5f99b941^92790c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@110"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc00348440ddffdf42^562"CpResource include/common/nanovg/vs_nanovg_fill.sc bin/Release/bgfxVectorTile.app/Contents/Resources/vs_nanovg_fill.sc    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/nanovg/vs_nanovg_fill.sc /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"12DC2E11-49C2-4423-9D48-AEC47ADE577A-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CCpResource include/common/shaderlib.sh bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh
-s429481754.046504
-e429481754.048045
-r1
-xCpResource
-xinclude/common/shaderlib.sh
-xbin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh101"CpResource include/common/shaderlib.sh bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sha8fc0b1a5f99b941^54740c1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh00348440ddffdf42^533"CpResource include/common/shaderlib.sh bin/Release/bgfxVectorTile.app/Contents/Resources/shaderlib.sh    cd /Users/matt/Development/testBgfxApp    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/matt/Development/testBgfxApp/include/common/shaderlib.sh /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Resources36"507A2812-A54E-475C-B5F3-89EFEA75D772-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CGenerateDSYMFile /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile
-s429481753.925842
-e429481754.039641
-r1
-xGenerateDSYMFile
-x/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM
-x/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Generate /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM113"GenerateDSYMFile bin/Release/bgfxVectorTile.app.dSYM bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTilec30ced195f99b941^81260a1a5f99b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM00348440ddffdf42^429"GenerateDSYMFile bin/Release/bgfxVectorTile.app.dSYM bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile    cd /Users/matt/Development/testBgfxApp    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile -o /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app.dSYM36"FD278927-1341-4D46-9481-BA38AF498EAF-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CLd /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile normal x86_64
-s429481753.870320
-e429481753.925158
-r1
-xLd
-x/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile
-xnormal
-xx86_64
-d/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/bgfxVectorTile.LinkFileList
-d/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/entry_osx.o
-d/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/main.o
-d/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/jsoncpp.o
-d/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/GeometryBuilder.o
-d/Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/Layer.o
-d/Users/matt/Development/testBgfxApp/libs/release/libtess2.a
-d/Users/matt/Development/testBgfxApp/libs/debug/libexample-commonDebug.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
-d/Users/matt/Development/testBgfxApp/libs/release/libexample-commonRelease.a
-d/Users/matt/Development/testBgfxApp/libs/debug/libbgfxDebug.a
-d/Users/matt/Development/testBgfxApp/libs/release/libbgfxRelease.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
-d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
-d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
-old: warning: direct access in bx::Thread::init(int (*)(void*), void*, unsigned int) to global weak symbol bx::Thread::threadFunc(void*) means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile77"Ld bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile normal x86_645de0de195f99b941^06d7ec195f99b941^-296"ld: warning: direct access in bx::Thread::init(int (*)(void*), void*, unsigned int) to global weak symbol bx::Thread::threadFunc(void*) means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.1(21%IDEActivityLogMessage2@282"Direct access in bx::Thread::init(int (*)(void*), void*, unsigned int) to global weak symbol bx::Thread::threadFunc(void*) means the weak symbol cannot be overridden at runtime. This was likely caused by different translation units being compiled with different visibility settings.-429481753#0#296#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#32"Apple Mach-O Linker (ld) Warning--0#0#1#--1225"Ld bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile normal x86_64    cd /Users/matt/Development/testBgfxApp    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/matt/Development/testBgfxApp/bin/Release -L/Users/matt/Development/testBgfxApp/libs/release -L/Users/matt/Development/testBgfxApp/libs/debug -F/Users/matt/Development/testBgfxApp/bin/Release -filelist /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/bgfxVectorTile.LinkFileList -mmacosx-version-min=10.9 -stdlib=libc++ -fobjc-link-runtime -ltess2 -lexample-commonDebug -framework CoreFoundation -framework OpenGL -lexample-commonRelease -ltess2 -lbgfxDebug -lbgfxRelease -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/matt/Development/testBgfxApp/bin/bgfxVectorTile.build/Release/bgfxVectorTile.build/Objects-normal/x86_64/bgfxVectorTile_dependency_info.dat -o /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/MacOS/bgfxVectorTile36"107F604B-547A-4016-B1B9-1F15A824E8BE-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CProcessInfoPlistFile /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Info.plist /Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist
-s429481751.318355
-e429481751.320103
-r1
-xProcessInfoPlistFile
-x/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Info.plist
-x/Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Process /Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist97"ProcessInfoPlistFile bin/Release/bgfxVectorTile.app/Contents/Info.plist bgfxVectorTile-Info.plista08851175f99b941^edf251175f99b941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist0000000000000000^456"ProcessInfoPlistFile bin/Release/bgfxVectorTile.app/Contents/Info.plist bgfxVectorTile-Info.plist    cd /Users/matt/Development/testBgfxApp    builtin-infoPlistUtility /Users/matt/Development/testBgfxApp/bgfxVectorTile-Info.plist -genpkginfo /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app/Contents/Info.plist36"4A706B86-4DDF-4E95-88C4-A11FB447405D-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
-CTouch /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app
-s429481754.050769
-e429481754.053752
-r1
-xTouch
-x/Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Touch /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app36"Touch bin/Release/bgfxVectorTile.app25060d1a5f99b941^8bc30d1a5f99b941^---0#0#1#--169"Touch bin/Release/bgfxVectorTile.app    cd /Users/matt/Development/testBgfxApp    /usr/bin/touch -c /Users/matt/Development/testBgfxApp/bin/Release/bgfxVectorTile.app36"777305AF-1E9E-416D-AE67-0233D10C43F0-
-b82E7BE97-12F8-4998-AD47-B1DB60998ECB
-
